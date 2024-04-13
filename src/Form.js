@@ -6,7 +6,7 @@ const Form = () => {
   const [downloadUrl, setDownloadUrl] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const backendDomain = 'https://powerful-tundra-06195-848495b13757.herokuapp.com/'; // Example: Replace with your actual backend domain
+  const backendDomain = 'https://powerful-tundra-06195-848495b13757.herokuapp.com'; // Example: Replace with your actual backend domain
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
