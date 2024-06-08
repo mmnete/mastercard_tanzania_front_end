@@ -1,0 +1,29 @@
+.form {
+  margin: 10px;
+}
+
+.title {
+    padding: 16px 0; /* Equivalent to theme.spacing(2, 0) */
+}
+
+.table {
+border: 1px solid #ccc; /* Add border to table */
+border-radius: 4px;
+}
+
+.table td {
+border: 1px solid #ccc; /* Add border to table cells */
+}
+
+.table th {
+background-color:beige;
+border: 2px solid #ccc; /* Add border to table cells */
+}
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px; /* Set a max-width as needed */
+}
+  
